@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<title>北京大学全国中学生信息科学夏令营网上报名</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/Site.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/Printer.css" rel="stylesheet" type="text/css" media="print" />
+<script src="/JSLib/Prototype.js" language="javascript" type="text/javascript"></script>
+<script src="/JSLib/Validate.js" language="javascript" type="text/javascript"></script>
+<script src="/JSLib/Util.js" language="javascript" type="text/javascript"></script>
+</head>
+<body>
+<form id="MainForm" runat="server">
+  <table id="Layout">
+    <tr>
+      <td id="Header"></td>
+    </tr>
+    <tr>
+      <td id="Container"><asp:contentplaceholder id="MainContent" runat="server"></asp:contentplaceholder></td>
+    </tr>
+    <tr>
+      <td id="Footer">北京大学信息科学技术学院 版权所有<br />
+        Copyright &copy; School of Electronics Engineering & Computer Science, Peking University.</td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

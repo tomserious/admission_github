@@ -1,0 +1,81 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	font-size: 12px;
+	line-height: 1.5;
+}
+table {
+	border-collapse: collapse;
+}
+#Header, #LeftPane, #Footer, #PrintButton {
+	display: none;
+}
+#ApplicationTitle {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+#ApplicationTable {
+	margin: 10px 0;
+}
+#ApplicationTable td {
+	border: #000 1px solid;
+	padding: 0;
+}
+#ApplicationTable table {
+	width: 100%;
+	margin: 0;
+	border: #FFF 1px solid;
+}
+#ApplicationTable table td {
+	border: #000 1px solid;
+	padding: 3px 5px;
+}
+#ApplicationTable .Right {
+	text-align: right;
+}
+#ApplicationTable .Title {
+	font-size: 14px;
+}
+#ApplicationTable #CodeInfo {
+	font-size: 16px;
+}
+#ApplicationTable #FamilyMembers, #ApplicationTable #Performance, #ApplicationTable #Headmaster {
+	text-align: center;
+}
+#ApplicationTable #FamilyMembers .Title, #ApplicationTable #Performance .Title, #ApplicationTable #Headmaster .Title {
+	text-align: left;
+}
+#ApplicationTable #Deliverance .SignArea {
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 50%;
+	line-height: 3;
+}
+#ApplicationTable #Honors .Date {
+	width: 14%;
+	border: none;
+	vertical-align: top;
+}
+#ApplicationTable #Honors .Desc {
+	width: 86%;
+	border: none;
+}
+#Intro {
+	font-size: 12px;
+	line-height: 1.5;
+	padding: 10px;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+#Intro p {
+	text-indent: 2em;
+	margin: 0;
+}
+#Intro #Title {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	text-indent: 0;
+	margin: 5px auto;
+}

@@ -1,0 +1,333 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	background-color: #C0C0C0;
+}
+table {
+	border-collapse: collapse;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #B22;
+	text-decoration: underline;
+}
+a img {
+	border: 0;
+}
+#Layout {
+	width: 780px;
+	margin: 5px auto;
+}
+#Header {
+	height: 100px;
+	background: #FFF url(/Images/Header.jpg) no-repeat;
+}
+#Container {
+	background-color: #FFF;
+}
+#Footer {
+	background-color: #FFF;
+	border-top: #39C 1px solid;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	color: #555;
+	padding: 5px 0;
+}
+#LoginZone {
+	width: 200px;
+	float: right;
+	border: solid 1px #CCC;
+	margin: 10px;
+	background-color: #FFD;
+}
+#LoginZone #LoginTitle {
+	text-align: center;
+	background-color: #339;
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 4px;
+}
+#LoginTable {
+	margin: 10px auto;
+}
+#LoginTable td {
+	padding: 8px 10px;
+	vertical-align: top;
+}
+#LoginTable .Text {
+	width: 120px;
+	height: 13px;
+	border-width: 0;
+	border-bottom: #999 1px dotted;
+	font-size: 12px;
+}
+#LoginTable .Button {
+	margin: 0 5px;
+	width: 40px;
+	height: 18px;
+	font-size: 12px;
+	border: #06C 1px solid;
+	background-color: #FFC;
+	color: #000;
+}
+#RegisterTable {
+	margin: 10px auto;
+	border: #CCC 1px solid;
+}
+#RegisterTable td {
+	padding: 8px 10px;
+	border-bottom: #CCC 1px dotted;
+}
+#RegisterTable .Text {
+	width: 160px;
+	height: 13px;
+	border: #999 1px solid;
+	font-size: 12px;
+}
+#RegisterTable .Button {
+	margin: 0 5px;
+	width: 40px;
+	height: 18px;
+	font-size: 12px;
+	border: #06C 1px solid;
+	background-color: #FFC;
+	color: #000;
+}
+.vdError span {
+	color: #F00;
+	background: url(/Images/ErrorMark.gif) no-repeat left center;
+	margin: 0;
+	padding: 5px 0 5px 20px;
+	display: block;
+}
+#VerifyCodeContainer * {
+	vertical-align: middle;
+}
+#LeftPane {
+	width: 130px;
+	vertical-align: top;
+}
+#LeftPane #UserNav {
+	margin: 10px auto;
+	background-color: #999;
+}
+#LeftPane #UserNav td {
+	border: #036 2px solid;
+	padding: 8px 14px;
+	font-weight: bold;
+}
+#LeftPane #UserNav #Title {
+	padding: 3px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #036;
+	color: #FFF;
+	border: 0;
+}
+#LeftPane #UserNav #Util {
+	padding: 3px;
+	background-color: #CC9;
+	text-align: center;
+}
+#RightPane {
+	width: 650px;
+	vertical-align: top;
+}
+#ApplicationTitle {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+}
+#ApplicationTable {
+	margin: 10px;
+}
+#ApplicationTable td {
+	border: #000 1px solid;
+	padding: 0;
+}
+#ApplicationTable table {
+	width: 100%;
+	margin: 0;
+	border: #FFF 1px solid;
+}
+#ApplicationTable table td {
+	border: #000 1px solid;
+	padding: 3px 5px;
+}
+#ApplicationTable .Right {
+	text-align: right;
+}
+#ApplicationTable .Title {
+	font-size: 14px;
+}
+#ApplicationTable #CodeInfo {
+	font-size: 16px;
+}
+#ApplicationTable #FamilyMembers, #ApplicationTable #Performance, #ApplicationTable #Headmaster {
+	text-align: center;
+}
+#ApplicationTable #FamilyMembers .Title, #ApplicationTable #Performance .Title, #ApplicationTable #Headmaster .Title {
+	text-align: left;
+}
+#ApplicationTable #Deliverance .SignArea {
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 50%;
+	line-height: 3;
+}
+#ApplicationTable #Honors .Date {
+	width: 14%;
+	border: none;
+	vertical-align: top;
+}
+#ApplicationTable #Honors .Desc {
+	width: 86%;
+	border: none;
+}
+#ClassTitle {
+	font-size: 16px;
+	font-weight: bold;
+	color: #B22;
+	margin: 10px;
+}
+#AddLink {
+	margin: 5px 40px;
+}
+#BasicInfoTable, .FamilyMembersList, #FamilyMembersAddTable, #FamilyMembersModifyTable, #PerformanceTable, #HeadmasterTable, .HonorsList, #HonorsAddTable, #HonorsModifyTable {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #DDD;
+}
+#BasicInfoTable td, .FamilyMembersList td, .FamilyMembersList th, #FamilyMembersAddTable td, #FamilyMembersModifyTable td, #PerformanceTable td, #HeadmasterTable td, .HonorsList td, #HonorsAddTable td, #HonorsModifyTable td {
+	border: #FFF 1px solid;
+	padding: 7px 5px;
+}
+.FamilyMembersList td {
+	text-align: center;
+}
+#AdminTable {
+	width: 300px;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 10px auto;
+	text-align: center;
+}
+#AdminTable td {
+	border: #000 1px solid;
+	padding: 20px;
+}
+#AdminTable .Pass {
+	color: #090;
+}
+#AdminTable .NotPass {
+	color: #900;
+}
+#AdminTable .None {
+	color: #777;
+}
+#BasicInfoTable .Text, #FamilyMembersAddTable .Text, #FamilyMembersModifyTable .Text, #HeadmasterTable .Text, #HonorsAddTable .Text, #HonorsModifyTable .Text {
+	width: 180px;
+	border: #369 1px solid;
+	overflow-y: hidden;
+}
+#PerformanceTable .Text {
+	width: 40px;
+	border: #369 1px solid;
+	overflow-y: hidden;
+}
+#BasicInfoTable .Button, #FamilyMembersAddTable .Button, #FamilyMembersModifyTable .Button, #PerformanceTable .Button, #HeadmasterTable .Button, #HonorsAddTable .Button, #HonorsModifyTable .Button {
+	width: 60px;
+	height: 20px;
+	border: #369 1px solid;
+	background-color: #FFC;
+	margin: 5px 20px;
+}
+#Intro {
+	font-size: 14px;
+	line-height: 1.8;
+	padding: 10px 30px;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+#Intro p {
+	text-indent: 2em;
+	margin: 0;
+}
+#Intro #Title {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	text-indent: 0;
+	margin: 10px auto;
+}
+#Intro .Title {
+	text-indent: 0;
+	font-weight: bold;
+	margin: 0.5em 0;
+}
+#Intro table {
+	margin-left: 2em;
+}
+#Intro #Sign {
+	margin-left: 50%;
+	text-align: center;
+}
+#AdminViewTable {
+	width: 700px;
+	margin: 10px auto;
+}
+#AdminViewTable td {
+	padding: 3px 5px;
+	border: #FFF 1px solid;
+	text-align: center;
+}
+#AdminViewTable .RowA {
+	background-color: #FFC;
+}
+#AdminViewTable .RowB {
+	background-color: #CCC;
+}
+#AdminViewTable .Pass {
+	color: #090;
+}
+#AdminViewTable .NotPass {
+	color: #900;
+}
+.ReadNewsContent {
+	font-size: 14px;
+	line-height: 1.8;
+	padding: 10px 50px;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.ReadNewsContent p {
+	margin: 5px 0;
+}
+.NewsList {
+	list-style: none;
+	margin: 0 20px;
+}
+.NewsList .TitleSpan {
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-right: 10px;
+}
+.NewsList .DateSpan {
+	color: #999;
+}
+.NewsList li {
+	line-height: 2;
+	background: url(/Images/Dot.gif) no-repeat left;
+	padding-left: 10px;
+}

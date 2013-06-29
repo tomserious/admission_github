@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Users.master.cs" Inherits="Users_Users" %>
+<%@ Register Src="~/Controls/Identify.ascx" TagName="Identify" TagPrefix="Admission" %>
+
+<asp:Content ID="MasterContent" ContentPlaceHolderID="MainContent" Runat="Server">
+  <Admission:Identify ID="Identify" runat="server" />
+  <table>
+    <tr>
+      <td id="LeftPane"><table id="UserNav">
+          <tr>
+            <td id="Title">管理链接</td>
+          </tr>
+          <tr>
+            <td id="Util">[<a href="ChangePassword.aspx">修改密码</a>] [<a href="Logout.aspx">注销</a>]</td>
+          </tr>
+          <tr>
+            <td><a href="/Users/Index.aspx">报名管理首页</a></td>
+          </tr>
+          <tr>
+            <td><a href="/Users/BasicInfo.aspx">学生基本信息</a></td>
+          </tr>
+          <tr>
+            <td><a href="/Users/FamilyMembers.aspx">主要家庭成员</a></td>
+          </tr>
+          <tr>
+            <td><a href="/Users/Performance.aspx">学生在校成绩</a></td>
+          </tr>
+          <tr>
+            <td><a href="/Users/HeadMaster.aspx">校长联系方式</a></td>
+          </tr>
+          <tr>
+            <td><a href="/Users/Honors.aspx">学生获奖情况</a></td>
+          </tr>
+          <tr>
+            <td><a href="/Users/Application.aspx">报名表预览打印</a></td>
+          </tr>
+        </table></td>
+      <td id="RightPane"><asp:ContentPlaceHolder ID="UserContent" runat="server"></asp:ContentPlaceHolder></td>
+    </tr>
+  </table>
+</asp:Content>

@@ -1,0 +1,7 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin_Admin" %>
+<%@ Register Src="~/Admin/AdminIdentify.ascx" TagName="AdminIdent" TagPrefix="Admission" %>
+
+<asp:Content ID="MasterContent" ContentPlaceHolderID="MainContent" Runat="Server">
+  <Admission:AdminIdent ID="Identify" runat="server" />
+  <asp:ContentPlaceHolder ID="AdminContent" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
