@@ -12,7 +12,7 @@
                     <img src="Images/CheckIn.gif" /></a><div style="width: 132px; border: 1px solid #CCC; background-color: #FFC; padding: 5px; text-align: justify; text-justify: inter-ideograph">
                     <p style="text-align: center; font-weight: bold; font-size: 14px; color: #B22; margin: 5px 0">公 告</p>
                         亲爱的各位中学生朋友：<br />
-                        　　2013年北京大学全国中学生信息科学夏令营选拔结果延期到7月1日公布。</div>
+                        　　2013年北京大学全国中学生信息科学夏令营选拔结果已公布，请登录查看。</div>
             </td>
             <td>
                 <div id="ClassTitle">

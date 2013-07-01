@@ -14,12 +14,7 @@ public partial class Users_Result : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        Users user = (Users)Session["Identify"];
-        if (user.Result == Users.VerifyResult.None)
-        {
-            Response.Write("<script>alert('很遗憾您没能获得参加此次夏令营的资格。感谢您对我们的关注，祝愿您学业有成!')</script>");
-            Response.Redirect("/Users/Index.aspx");
-        }
+        Users user = (Users)Session["Identify"];       
         string name = BasicInfo.GetBasicInfoByID(user.UserID).Name;
         if (user.Result == Users.VerifyResult.Pass)
         {
@@ -30,7 +25,7 @@ public partial class Users_Result : System.Web.UI.Page
             //    IDLitPass.Text = string.Format("B2013{0:d4}", user.UserID - 1182);
             IDLitPass.Text = string.Format("A2013{0:d4}", user.UserID);
             Pass.Visible = true;
-            NotPass.Visible = false;
+            NotPass.Visible = false;//设置可见div层
         }
         else
         {
